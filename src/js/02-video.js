@@ -21,7 +21,7 @@ function saveValue(value) {
 };
 
 function checkStoredTime() {
-    const currTime = localStorage.getItem(saveValue);
+    const currTime = localStorage.getItem(storageKey);
 
     if (currTime) {
         player.setCurrentTime(currTime)
